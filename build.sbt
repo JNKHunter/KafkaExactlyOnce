@@ -6,4 +6,4 @@ scalaVersion := "2.12.4"
 
 libraryDependencies += "org.apache.kafka" % "kafka-clients" % "1.0.0"
 
-mainClass in (Compile, run) := Some("ConsumerApplication")
+mainClass in (Compile, run) := Some("ProducerApplication")
